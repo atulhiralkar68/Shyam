@@ -51,7 +51,7 @@ public class UpdateProfileAH {
 			//File file = new File("./Data/PRABHAT_.SHETTY_ QA.pdf");
 //			File file = new File("./data/Atul Hiralkar_QA.pdf");	
 //			driver.findElement(By.xpath("//input[@id='attachCV']")).sendKeys("./data/Atul Hiralkar_QA.pdf");
-			File file = new File("./data/Atul Hiralkar_QA.pdf");	
+			File file = new File("./data/Atul_Hiralkar_QA.pdf");	
 			//driver.findElement(By.xpath("//input[@id='attachCV']")).sendKeys("./data/Jayashree-Maharana.pdf");
 			driver.findElement(By.xpath("//input[@id='attachCV']")).sendKeys(file.getAbsolutePath());
 			Thread.sleep(10000);	
