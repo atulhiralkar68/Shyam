@@ -12,13 +12,9 @@ import org.openqa.selenium.WebDriver;
 
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.Test;
-//Im loking for an Job apportunity as a QA Manual+Automation engg. Please let me know if there is any opening 
-//in your current Organization.
-
-
-
+@Test
 public class UpdateProfileJM {
-	@Test(invocationCount = 3)
+	
 		public static void main(String[] args) throws InterruptedException {
 			System.setProperty("webdriver.chrome.driver", "./Driver/chromedriver.exe");
 			ChromeDriver driver = new ChromeDriver();
@@ -32,7 +28,7 @@ public class UpdateProfileJM {
 			driver.findElement(By.xpath("//a[text()='Login']")).click();
 			//driver.findElement(By.xpath("//input[@placeholder='Enter your active Email ID / Username']")).click();
 			driver.findElement(By.xpath("//input[@placeholder='Enter your active Email ID / Username']")).sendKeys("jkmaharana19@gmail.com");
-			driver.findElement(By.xpath("//input[@placeholder='Enter your password']")).sendKeys("naukri@123");
+			driver.findElement(By.xpath("//input[@placeholder='Enter your password']")).sendKeys("naukri@1234");
 			driver.findElement(By.xpath("//button[text()='Login']")).click();
 			Thread.sleep(10000);
 			driver.findElement(By.xpath("//img[@alt='naukri user profile img']")).click();

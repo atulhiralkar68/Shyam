@@ -11,7 +11,7 @@ public class ArrayList {
 		
 		//ArrayList <Integer> mylist1 = new ArrayList<Integer>(); > Not working 
 		
-		mylist.add(100);
+		//mylist.add(100);
 	}
 
 }

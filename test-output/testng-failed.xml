@@ -3,13 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="Test.dataPrabhat$dataProvider">
+      <class name="Test.Test1">
         <methods>
-          <include name="samewindow"/>
-          <include name="window"/>
-          <include name="windo"/>
+          <include name="create_loan" invocation-numbers="0 1"/>
         </methods>
-      </class> <!-- Test.dataPrabhat$dataProvider -->
+      </class> <!-- Test.Test1 -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
